@@ -148,23 +148,4 @@ interface OTPStore {
 
 Use atomic Redis commands for counters to prevent race conditions.
 
-## Publish
 
-```bash
-npm login
-npm publish
-```
-
-If the package name is already taken, rename it in `package.json`, for example:
-
-```json
-{
-  "name": "@yourusername/secure-otp-sender-kit"
-}
-```
-
-Then publish:
-
-```bash
-npm publish --access public
-```
