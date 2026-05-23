@@ -1,0 +1,30 @@
+{
+  "name": "secure-otp-sender-kit",
+  "version": "2.0.0",
+  "description": "Production-oriented OTP sender and verifier with secure hashing, rate limiting, resend cooldown, attempt limits, and pluggable SMS/email providers.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "otp",
+    "sms",
+    "email",
+    "verification",
+    "two-factor",
+    "2fa",
+    "authentication",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
